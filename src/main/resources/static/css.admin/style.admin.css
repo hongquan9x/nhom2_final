@@ -290,3 +290,8 @@ tbody tr:nth-child(even){
     border-radius: 4px;
     padding: .4rem 1rem;
 }
+.success {background-color: #04AA6D;} /* Green */
+.success:hover {background-color: #46a049;}
+.danger {background-color: #f44336;} /* Red */
+.danger:hover {background: #da190b;}
+
