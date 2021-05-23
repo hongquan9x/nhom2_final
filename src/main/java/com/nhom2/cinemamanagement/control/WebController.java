@@ -11,4 +11,16 @@ public class WebController {
     public String homePage(){
         return "index";
     }
+
+
+    @GetMapping("/login")
+    public String loginCustomer(){
+        return "login";
+    }
+
+    @GetMapping("/login_error")
+    public String showLoginError(){
+        return "login_error";
+    }
+
 }

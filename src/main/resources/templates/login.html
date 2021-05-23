@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html xmlns:th="http://thymeleaf.org">
 <head>
 	<!-- Basic Page Needs -->
         <meta charset="utf-8">
@@ -205,7 +205,7 @@
         </div>
         
         <!-- Main content -->
-                <form id="login-form" class="login" method='get' novalidate=''>
+                <form th:action="@{dologin}" method="post"  class="login"  novalidate=''>
                     <p class="login__title">sign in <br><span class="login-edition">welcome to A.Movie</span></p>
 
                     <div class="social social--colored">
@@ -217,15 +217,15 @@
                     <p class="login__tracker">or</p>
                     
                     <div class="field-wrap">
-                    <input type='email' placeholder='Email' name='user-email' class="login__input">
-                    <input type='password' placeholder='Password' name='user-password' class="login__input">
+                    <input type='text' placeholder='Email' name='email' class="login__input">
+                    <input type='password' placeholder='Password' name='password' class="login__input">
 
                     <input type='checkbox' id='#informed' class='login__check styled'>
                     <label for='#informed' class='login__check-info'>remember me</label>
                      </div>
                     
                     <div class="login__control">
-                        <button type='submit' class="btn btn-md btn--warning btn--wider">sign in</button>
+                        <button type="submit" th:formaction="@{dologin}" formmethod="post" class="btn btn-md btn--warning btn--wider">sign in</button>
                         <a href="#" class="login__tracker form__tracker">Forgot password?</a>
                     </div>
                 </form>
