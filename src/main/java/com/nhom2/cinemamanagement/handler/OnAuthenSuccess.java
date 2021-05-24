@@ -11,6 +11,10 @@ import java.io.IOException;
 public class OnAuthenSuccess implements AuthenticationSuccessHandler {
     @Override
     public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response, Authentication authentication) throws IOException, ServletException {
+
+        String username = authentication.getName();
+        System.out.println("onAuthenticationSuccess: loigin success. go to home:" + username);
+
         response.sendRedirect("/");
     }
 }

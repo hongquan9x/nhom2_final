@@ -60,7 +60,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                 .loginProcessingUrl("/dologin")
                 .failureHandler(new OnAuthenFailure())
                 .successHandler(new OnAuthenSuccess())
-                .and().exceptionHandling().accessDeniedPage(("/login_error"))
+                .and().exceptionHandling().accessDeniedPage(("/403"))
         ;
     }
 }
