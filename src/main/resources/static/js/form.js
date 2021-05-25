@@ -107,7 +107,7 @@ $('.login').submit(function(e) {
 		self.find('[type=submit]').attr('disabled', 'disabled');
 
 		self.children().fadeOut(300,function(){ $(this).remove() })
-		$('<p class="login__title">sign in <br><span class="login-edition">welcome to A.Movie</span></p><p class="success">You have successfully<br> signed in!</p>').appendTo(self)
+		$('<p class="login__title">sign in <br><span class="login-edition">welcome to Green Movie</span></p><p class="success">You have successfully<br> signed in!</p>').appendTo(self)
 		.hide().delay(300).fadeIn();
 
 
