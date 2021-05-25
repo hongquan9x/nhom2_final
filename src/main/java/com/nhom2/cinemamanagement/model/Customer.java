@@ -1,6 +1,8 @@
 package com.nhom2.cinemamanagement.model;
 
 
+
+
 import lombok.Data;
 
 import javax.persistence.*;
@@ -12,11 +14,25 @@ public class Customer {
 
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private int customerID;
+    @Column (name = "customer_id")
+    private int customerId;
+
+    @Column (name  = "customer_name")
     private String customerName;
+
+    @Column (name  = "customer_phone_number")
     private String customerPhoneNumber;
+
+    @Column (name  = "cumulative_points")
     private float cumulativePoints;
+
+    @Column (name  = "customer_email")
     private String customerEmail;
+
+    @Column (name  = "customer_password")
     private String customerPassword;
-    private String author_provider;
+
+    @Column (name  = "auth_provider")
+    private String authProvider;
+
 }

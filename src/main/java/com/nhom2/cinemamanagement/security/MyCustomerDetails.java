@@ -1,7 +1,7 @@
 package com.nhom2.cinemamanagement.security;
 
 import com.nhom2.cinemamanagement.model.Customer;
-import lombok.Data;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-@Data
 public class MyCustomerDetails implements UserDetails {
 
     private Customer customer;
