@@ -11,12 +11,44 @@
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+<<<<<<< Updated upstream
 			<name>org.eclipse.m2e.core.maven2Builder</name>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+			<name>org.springframework.ide.eclipse.boot.validation.springbootbuilder</name>
+=======
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+=======
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+=======
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+>>>>>>> Stashed changes
 			<arguments>
 			</arguments>
 		</buildCommand>
 		<buildCommand>
+<<<<<<< Updated upstream
 			<name>org.springframework.ide.eclipse.boot.validation.springbootbuilder</name>
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+=======
+			<name>org.springframework.ide.eclipse.boot.validation.springbootbuilder</name>
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+=======
+			<name>org.springframework.ide.eclipse.boot.validation.springbootbuilder</name>
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+=======
+			<name>org.springframework.ide.eclipse.boot.validation.springbootbuilder</name>
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+>>>>>>> Stashed changes
 			<arguments>
 			</arguments>
 		</buildCommand>

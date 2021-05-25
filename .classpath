@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
+<<<<<<< Updated upstream
 	<classpathentry kind="src" output="target/classes" path="src/main/java">
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+	<classpathentry kind="src" output="target/classes" path="java">
+=======
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+=======
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+=======
+	<classpathentry kind="src" output="target/classes" path="src/main/java">
+>>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
+>>>>>>> Stashed changes
 		<attributes>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
