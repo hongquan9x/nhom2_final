@@ -358,19 +358,7 @@ function init_Home() {
     $('.score').raty({
         width:130, 
         score: 0,
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
-        path: '/images/rate/',
-=======
         path: 'images/rate/',
->>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
-=======
-        path: 'images/rate/',
->>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
-=======
-        path: 'images/rate/',
->>>>>>> c8d7df17d94d2cb04be64be296d7ca679f451f05
         starOff : 'star-off.svg',
         starOn  : 'star-on.svg' 
     });
