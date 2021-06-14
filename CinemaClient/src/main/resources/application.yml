@@ -1,0 +1,31 @@
+server:
+  port: 8080
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: redarmy92@gmail.com
+    password: lvrqkbqkritawbdc
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/cinemamanagement?useUnicode=yes&CharacterEncoding=UTF-8
+    username: root
+    password: ''
+  jpa:
+    hibernate:
+      ddl-auto: none
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1084351204129-ejkbuejlptjtkirpbse9v4ql9nfmmf1k.apps.googleusercontent.com
+            client-secret: ON3uIiMQMeOUOhDImtiEuwvt
+            scope:
+              - email
+              - profile
